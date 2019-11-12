@@ -22,3 +22,7 @@ CHECKS FOR TRUTHY VALUES:
 ==> toBeDefined
 ==> toBeTruthy
 ==> toBeFalsy
+
+arrays .toContain
+
+AXIOS
