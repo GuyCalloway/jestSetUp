@@ -25,4 +25,11 @@ CHECKS FOR TRUTHY VALUES:
 
 arrays .toContain
 
-AXIOS
+AXIOS: Axios is a popular, promise-based HTTP client that sports an easy-to-use API and can be used in both the browser and Node.js
+--> Good for practising with HTTP client (could use fetch but Axios easier)
+
+JSONplaceholder API = fake rest API for testing make requests to get users and other stuff
+e.g. http://jsonplaceholder.typicode.com/users/1
+gives info for first in database: name, username, email, address etc... object
+
+axios.get('http://jsonplaceholder.typicode.com/users/1') ==> THIS RETURNS PROMISE
