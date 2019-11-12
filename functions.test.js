@@ -15,3 +15,10 @@ test("value check 4 to be 4", () => {
 test("knows if falsy value passed", () => {
     expect(functions.checkValue(0)).toBeFalsy();
 });
+
+test("returns user name Guy Calloway Object", () => {
+    expect(functions.createUser()).toEqual({
+        firstName: "Guy",
+        lastName: "Calloway"
+    });
+});

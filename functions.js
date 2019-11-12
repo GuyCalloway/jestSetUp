@@ -6,7 +6,8 @@ const functions = {
         const user = {
             firstName: "Guy"
         };
-        user['lastName'] = "Calloway"
+        user['lastName'] = "Calloway";
+        return user;
     }
 };
 
